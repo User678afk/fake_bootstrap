@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Esercizio BTS_1.1</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-4">
+
+        <h1 class="text-center">ESERCIZIO BTS_1.1</h1>
+
+        <!-- Domanda 1 -->
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white">
+                1. A cosa serve bootstrap?
+            </div>
+            <div class="card-body">
+                Bootstrap è un framework front-end gratuito e open source che permette di creare siti web responsive in modo rapido e semplice. Fornisce una griglia CSS, componenti pronti all’uso (bottoni, form, navbar, ecc.) e utility per lo stile.
+            </div>
+        </div>
+
+        <!-- Domanda 2 -->
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white">
+                2. Cosa devi importare per creare una pagina web con bootstrap
+            </div>
+            <div class="card-body">
+                <p>a. Per rispondere con del codice dovete usare:</p>
+                <ul>
+                    <li>< al posto del carattere <</li>
+                    <li>> al posto del carattere ></li>
+                </ul>
+                <p>b. es: Invece di scrivere</p>
+                <pre><code><link rel="stylesheet" href="..."></code></pre>
+                <p>c. Scrivete:</p>
+                <pre><code><link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css&quot;></code></pre>
+            </div>
+        </div>
+
+        <!-- Domanda 3 -->
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white">
+                3. Cos’è un CDN? Che vantaggi comporta rispetto a scaricare bootstrap sul tuo sito?
+            </div>
+            <div class="card-body">
+                Un CDN (Content Delivery Network) è una rete di server distribuiti geograficamente che servono file statici (CSS, JS, immagini). I vantaggi sono: velocità (file caricati dal server più vicino), affidabilità, riduzione carico server e cache globale.
+            </div>
+        </div>
+
+        <!-- Domanda 4 -->
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white">
+                4. A cosa serve questo attributo del tag meta?
+            </div>
+            <div class="card-body">
+                <code>content="width=device-width, initial-scale=1"</code><br>
+                Serve a rendere la pagina responsive sui dispositivi mobili: imposta la larghezza della viewport uguale alla larghezza dello schermo e lo zoom iniziale al 100%.
+            </div>
+        </div>
+
+        <!-- Domanda 5 -->
+        <div class="card mb-3">
+            <div class="card-header bg-primary text-white">
+                5. Che differenza c’è tra Container e Container Fluid?
+            </div>
+            <div class="card-body">
+                <strong>Container</strong>: ha larghezza massima fissa (che cambia con lo schermo) e margini laterali. Ideale per contenuti centrati.<br>
+                <strong>Container Fluid</strong>: occupa il 100% della larghezza dello schermo senza margini. Ideale per layout full-width.
+            </div>
+        </div>
+
+        <!-- Esempio visivo -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="container bg-light p-3 border">
+                    <h5>Container (limitato)</h5>
+                    <p>Occupa larghezza massima fissa.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="container-fluid bg-primary text-white p-3">
+                    <h5>Container Fluid (full width)</h5>
+                    <p>Occupa tutta la larghezza.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
